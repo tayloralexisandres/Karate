@@ -5,5 +5,5 @@ import com.intuit.karate.junit5.Karate;
 class TestRunner {
 
     @Karate.Test
-    Karate testFeatures(){return Karate.run("firstKarate").tags().relativeTo(getClass());}
+    Karate testFeatures(){return Karate.run("assertionExamples").tags().relativeTo(getClass());}
 }
